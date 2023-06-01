@@ -1,6 +1,6 @@
 FROM nginx:1.25.0-alpine3.17
 
-RUN apk add nodejs-current npm make
+RUN apk add nodejs-current npm make screen
 
 WORKDIR /app
 COPY . .
