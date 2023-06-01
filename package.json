@@ -1,5 +1,5 @@
 {
-  "name": "njs-service",
+  "name": "nginx_multi_forward_middleware",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
