@@ -5,4 +5,4 @@ services:
       - "80:80"
       - "13485:13485"
     environment:
-      - port=13485
+      PORT: 13485
