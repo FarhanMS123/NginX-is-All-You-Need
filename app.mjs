@@ -1,7 +1,7 @@
 import express from "express";
 
 const app = express();
-app.listen(process.env.PORT);
+app.listen(process.env.PORT ?? 13485);
 
 // 100, 200, 201, 202, 204, 205
 // 400, 401, 403, 404, 405, 406
