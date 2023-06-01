@@ -16,8 +16,8 @@ RUN npm ci
 
 ENV PORT=13485
 
-EXPOSE ${PORT}
+EXPOSE 80 ${PORT}
 
 # CMD ["make", "test"]
-
-CMD ["npm", "start"]
+# CMD ["npm", "start"]
+CMD ["make", "start"]
