@@ -5,5 +5,5 @@ test:
 	pwd && \
 	ls -lah
 start:
-	screen -dm sh -c "nginx"
+	screen -dm sh -c "nginx-debug -g 'daemon off;'; read -p 'Press Enter to continue...' var"
 	npm start
