@@ -4,7 +4,7 @@ RUN apk add nodejs-current npm make screen
 
 WORKDIR /app
 COPY . .
-COPY ./nginx/*.conf /etc/nginx/conf.d
+COPY ./nginx/* /etc/nginx/conf.d
 
 RUN cat /etc/nginx/conf.d/nginx.conf >> /etc/nginx/nginx.conf
 RUN rm -f /etc/nginx/conf.d/nginx.conf
